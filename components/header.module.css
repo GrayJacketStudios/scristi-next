@@ -1,0 +1,102 @@
+
+
+.header {
+    height: 12em;
+}
+
+.pinfo {
+    color: #00171F;
+    background-color: #fff;
+    position: absolute;
+    right: 3%;
+    border: #575757 solid 1px;
+    border-radius: 40px 200px 200px 40px;
+    padding: 1px;
+    max-height: 8.2rem;
+    -webkit-box-shadow: 0 0 0 1px rgba(0,0,0,.15),0 2px 3px rgba(0,0,0,.5);
+    -moz-box-shadow: 0 0 0 1px rgba(0,0,0,.15),0 2px 3px rgba(0,0,0,.5);
+    box-shadow:  0 0 0 1px rgba(0,0,0,.15),0 2px 3px rgba(0,0,0,.5);    
+}
+
+
+.headerImage {
+width: 8rem;
+height: 8rem;
+}
+  
+
+.card {
+    float: left;
+    
+}
+
+.info {
+    text-align: center;
+    position: relative;
+    line-height: 0;
+    margin-left: 2px;
+    top: -10px;
+}
+
+
+.social_icons {
+
+    padding: 0;
+    list-style: none;
+    margin-top: 0px;
+
+    
+  }
+  
+  .social_icons li {
+    display: inline-block;
+    margin: 0.15em;
+    position: relative;
+    font-size: 1em;
+  }
+  
+  .social_icons i {
+    color: #fff;
+    position: absolute;
+    top: 0.80em;
+    left: 0.80em;
+    transition: all 265ms ease-out;
+  }
+  
+  .social_icons a {
+    display: inline-block;
+  }
+  
+  .social_icons a:before {
+    transform: scale(1);
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    content: " ";
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    display: block;
+    background: linear-gradient(45deg, #007EA7, #003459);
+    transition: all 265ms ease-out;
+  }
+  
+  .social_icons a:hover:before {
+    transform: scale(0);
+    transition: all 265ms ease-in;
+  }
+  
+  .social_icons a:hover i {
+    transform: scale(2.2);
+    -ms-transform: scale(2.2);
+    -webkit-transform: scale(2.2);
+    color: #008cff;
+    background: -webkit-linear-gradient(45deg, #007EA7, #003459);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 265ms ease-in;
+  }
+
+.lessLineSpace{
+    position: relative;
+    top: -10px;
+}

@@ -1,0 +1,23 @@
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 900px;
+    min-height: 50px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 5px 5px 5px 5px;
+    margin: auto;
+    -webkit-box-shadow: 0 0 0 1px rgba(0,0,0,.15),0 2px 3px rgba(0,0,0,.5);
+    -moz-box-shadow: 0 0 0 1px rgba(0,0,0,.15),0 2px 3px rgba(0,0,0,.5);
+    box-shadow:  0 0 0 1px rgba(0,0,0,.15),0 2px 3px rgba(0,0,0,.5);    
+}
+
+.container h1 {
+    text-align: center;
+    color: #00171F;
+}
+
+.container p {
+    margin: 5px;
+}
